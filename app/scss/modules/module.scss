@@ -1,0 +1,52 @@
+// TODO: Add modules to a seperate folder
+// TODO: Add modules to a seperate folder
+// ===============================================
+// 	TO CREATE INLINE LIST ELEMENTS
+// ===============================================
+
+.inline-links {
+	margin:0;
+	li {
+		float:left;
+		display: inline-block;
+		a{
+			margin: 0px 10px;
+		}
+		&:first-child a {
+			padding-left: 0;
+		}
+	}
+}
+.l-thumnail-container{
+	padding:15px 0px 10px 0px;
+	img{
+		margin-bottom: 10px;
+	}
+	h1{
+		padding: 5px 0px;
+		margin: 0px;
+		font-size: 18px;
+		font-weight: 500;
+		color:  $color-gray;
+	}
+	p{
+		padding: 5px 0px 10px;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 20px;
+		color: $color-gray;
+	}
+	a{
+		background-color: $color-blue;
+		color: $color-white;	
+		&:hover{
+			background-color: $color-blue;
+			color: $color-white;	
+		}
+	}
+}
+
+
+// ===============================================
+// 	TO CREATE INLINE LIST ELEMENTS
+// ===============================================
