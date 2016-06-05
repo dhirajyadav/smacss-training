@@ -19,56 +19,184 @@
 </header> -->
 		
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+<div class="navbar navbar-default mega-menu navbar-fixed-top" role="navigation">
+    <div class="container header-section">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="fa fa-bars"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img id="logo-header" src="http://www.thinksys.com/assets/img/logo.png" alt="Logo">
+            </a>
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Home -->
+                <!--<li class="dropdown active">
+                    <a href="index.shtml" >
+                        Home
+                    </a>
+                </li>-->
+                <!-- End Home -->
+                
+                 <!-- Services -->
+                <li class="dropdown mega-menu-fullwidth">
+                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="mega-menu-content disable-icons">
+                                <div class="container">
+                                    <div class="row equal-height">
+                                        <div class="col-md-3 equal-height-in">
+                                            <ul class="list-unstyled equal-height-list">
+                                           <!-- <li><h3>Software Development</h3></li>                                                       
+
+                                                <!-- Software Development -->
+                                                <li><a href="mobility.shtml">Mobility</a></li>
+                                                <li><a href="software-development.shtml">Software Development</a></li>
+                                                <li><a href="android-development.shtml">Android Development</a></li>
+                                                <li><a href="microsoft-expertise.shtml">Microsoft Expertise</a></li>
+                                                <li><a href="java-j2ee.shtml">Java/J2EE</a></li>
+                                                <li><a href="php.shtml">PHP</a></li>
+                                                <li><a href="ruby-on-rails.shtml">Ruby on Rails</a></li>
+                                                <li><a href="python.shtml">Python</a></li>
+                                                <li><a href="cold-fusion.shtml">Cold Fusion</a></li>
+                                                <li><a href="ria.shtml">RIA</a></li>
+                                                <!-- End Software Development -->
+                                              
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3 equal-height-in">
+                                            <ul class="list-unstyled equal-height-list">
+                                           <!-- <li><h3>QA Testing</h3></li>
+                                           
+                                                <!-- QA Testing -->
+                                                <li><a href="qa-testing.shtml">QA Testing</a></li>
+                                                <li><a href="qa-automation.shtml">QA Automation</a></li>
+                                                <li><a href="functional-testing.shtml">Functional Testing</a></li>
+                                                <li><a href="performance-testing.shtml">Performance Testing</a></li>
+                                                <li><a href="localization-testing.shtml">Localization Testing</a></li>
+                                                <li><a href="mobile-testing.shtml">Mobile Testing</a></li>                                                        
+                                                <!-- End QA Testing -->
+                                               
+                                            </ul>                                
+                                        </div>
+                                        <div class="col-md-3 equal-height-in">
+                                            <ul class="list-unstyled equal-height-list">
+                                            <!--<li><h3>Customer Exp. & Analytics</h3></li>
+
+                                                <!-- Customer Exp. & Analytics -->
+                                               <li><a href="ce-analytics.shtml">Customer Exp. & Analytics</a></li>  
+                                                <li><a href="ibm-business-partnership.shtml">IBM Business Partnership</a></li> 
+                                                <!-- End Customer Exp. & Analytics -->
+                                            </ul>    
+                                        </div>
+                                        <div class="col-md-3 equal-height-in">
+                                            <ul class="list-unstyled equal-height-list">
+                                            <!--<li><h3>Cloud Computing Services</h3></li>
+
+                                                <!-- Cloud Computing Services -->
+                                                <li><a href="cloud-computing-services.shtml">Cloud Computing Services</a></li>
+                                                <!-- End Cloud Computing Services -->
+                                            </ul>                                
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>    
+                        </li>
+                    </ul>
+                </li>
+                <!-- End Services -->
+
+                <!-- Products -->                        
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                        Products
+                    </a>
+                    <ul class="dropdown-menu">
+                        <!-- Krypton -->
+                        <li><a href="http://www.kryptonqa.com" target="_blank">Krypton</a></li>
+                        <!-- End Krypton -->
+                    </ul>
+                </li>
+                <!-- End Products -->  
+                
+                <!-- About ThinkSys -->
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                        About ThinkSys
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="overview.shtml">Overview</a></li>
+                        <li><a href="management-team.shtml">Management Team</a></li>
+                        <li><a href="career.php">Careers</a></li>
+                        <li><a href="press-release.shtml">Press Release</a></li>
+                        <li><a href="offices.php">Offices</a></li> </ul>
+                </li>
+                <!-- End About ThinkSys -->
+
+                <!-- Blog -->
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                        Resources
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="case-studies.shtml">Case Studies</a></li>
+                        <li><a href="http://blogs.thinksys.com">Blogs</a></li>
+                        <li><a href="articles.shtml">Articles</a></li>
+                        <li><a href="sitemap.shtml" >Sitemap</a></li>                               
+                    </ul>
+                </li>
+                <!-- End Blog -->
+                <!-- Contacts -->
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                        Contact
+                    </a>
+                    <ul class="dropdown-menu">                           
+                        <li><a href="contact-us.php">Contact Us</a></li>
+                    </ul>
+                </li>                   
+                <!-- End Contacts -->
+                
+             <!-- Social Icons -->
+             <li class="l-social-media-icon">
+                    <a href="https://www.facebook.com/ThinkSysInc" class="no-padding-top no-padding-bottom" target="_blank">
+                    	<img src="http://www.thinksys.com/assets/img/icons/social-icons/fb.png" alt="Facebook" title="Facebook"></a>
+                    <a href="https://twitter.com/ThinkSysInc" class="no-padding-top no-padding-bottom" target="_blank">
+                    	<img src="http://www.thinksys.com/assets/img/icons/social-icons/tw.png" alt="Twitter" title="Twitter"></a>
+                    <a href="https://www.linkedin.com/company/thinksys-inc" class="no-padding-top no-padding-bottom" target="_blank">
+                   		<img src="http://www.thinksys.com/assets/img/icons/social-icons/linkdin.png" alt="LinkedIn" title="LinkedIn"></a>
+                    <a href="https://plus.google.com/+ThinksysInc_Official/posts" class="no-padding-top no-padding-bottom" target="_blank">
+                    	<img src="http://www.thinksys.com/assets/img/icons/social-icons/googles.png" alt="Google+" title="Google+"></a>
+                    <a href="https://in.pinterest.com/Thinksys_Inc/" class="no-padding-top no-padding-bottom" target="_blank">
+                    	<img src="http://www.thinksys.com/assets/img/icons/social-icons/pin.png" alt="Pinterest" title="Pinterest"> </a>
+                    <a href="http://www.stumbleupon.com/stumbler/ThinksysInc" class="no-padding-top no-padding-bottom" target="_blank">
+                   		<img src="http://www.thinksys.com/assets/img/icons/social-icons/su.png" alt="Stumble Upon" title="Stumble Upon"> </a>
+                    </li>
+              <!-- End Social Icons-->
+
+
+                <!-- Search Block -->
+       <!--     <li>
+                    <i class="search fa fa-search search-btn"></i>
+                    <div class="search-open">
+                        <div class="input-group animated fadeInDown">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <span class="input-group-btn">
+                                <button class="btn-u" type="button">Go</button>
+                            </span>
+                        </div>
+                    </div>    
+                </li>                 -->
+                <!-- End Search Block -->
+            </ul>
+        </div><!--/navbar-collapse-->
+    </div>    
+</div>

@@ -33,6 +33,10 @@ section {
   font-size: em(70);
   font-weight: 300;
 }
+p{
+  font-size: 14px;
+  color: $color-gray;
+}
 h1.l-header{
   position:absolute;
   color: $color-gray;

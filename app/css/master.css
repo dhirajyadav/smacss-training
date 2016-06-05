@@ -5947,6 +5947,10 @@ section {
   font-size: 4.375em;
   font-weight: 300; }
 
+p {
+  font-size: 14px;
+  color: #5A5F62; }
+
 h1.l-header {
   position: absolute;
   color: #5A5F62;
@@ -6031,6 +6035,13 @@ SMACSS:Menu LAYOUT - SECTION
     .l-three-blocks .thumbnail:last-child {
       margin-right: 0; }
 
+.l-social-media-icon a {
+  padding: 0px !important;
+  float: left; }
+  .l-social-media-icon a img {
+    padding-left: 10px !important;
+    float: left; }
+
 /*-------------------------------------------------
 SMACSS:Common LAYOUT - SECTION
 -------------------------------------------------*/
@@ -6038,6 +6049,7 @@ SMACSS:Common LAYOUT - SECTION
   display: block;
   font-size: 0px;
   padding: 11px 0px 0px 0px;
+  margin-bottom: 15px;
   border-bottom: 1px solid #e4e9f0; }
   .l-headline h1 {
     display: inline-block;
@@ -6112,6 +6124,19 @@ SMACSS:Client Testimonials LAYOUT - SECTION
   border-top: 0px;
   text-align: left; }
 
+blockquote {
+  border-left-width: 2px !important; }
+  blockquote footer {
+    border-top: none;
+    text-align: left; }
+  blockquote:hover {
+    border-color: #3498db;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
+
 /*-------------------------------------------------
 SMACSS: LAYOUT - FOOTER
 -------------------------------------------------*/
@@ -6147,7 +6172,7 @@ footer {
       padding-left: 0; }
 
 .l-thumnail-container {
-  padding: 15px 0px 10px 0px; }
+  padding: 0px 0px 10px 0px; }
   .l-thumnail-container img {
     margin-bottom: 10px; }
   .l-thumnail-container h1 {
