@@ -2,3 +2,58 @@
 /*-------------------------------------------------
 SMACSS: STATE
 -------------------------------------------------*/
+/*-------------------------------------------------
+SMACSS:Client Testimonials LAYOUT - SECTION
+-------------------------------------------------*/
+blockquote{
+  border-left-width:2px !important;
+  footer{
+    border-top:none;
+    text-align: left;
+  }
+  &:hover{
+    border-color:$color-blue;
+    @include transition(all, 0.4s, ease-in-out);
+    }
+}
+#Free-Proof-Concept{
+	a.carousel-control{
+		opacity: 1;
+	    font-size: 30px;
+	    height: inherit;
+	    width: inherit;
+	    background: none;
+	    text-shadow: none;
+	    i{
+	    	top: 50%;
+		    opacity: 0.6;
+		    background: #000;
+		    margin-top: -18px;
+		    margin-left:0;
+		    margin-right:0;
+		    padding: 2px 12px;
+		    position: absolute;
+	    }
+	}
+	a.right{
+		i{
+			right:0 !important;
+		}
+	}
+	a.left{
+		i{
+			left:0 !important;
+		}
+	}
+	.carousel-caption{
+		padding:7px 15px !important;
+	    background: rgba(0, 0, 0, 0.7);
+		bottom:0px !important;
+		left:0px !important;
+		right:0px !important;
+		p{
+			color:$color-white;
+			margin-bottom: 0px;
+		}
+	}
+}

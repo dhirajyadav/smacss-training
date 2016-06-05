@@ -177,18 +177,6 @@ SMACSS:Client Testimonials LAYOUT - SECTION
     text-align: left;
   }
 }
-blockquote{
-  border-left-width:2px !important;
-  footer{
-    border-top:none;
-    text-align: left;
-  }
-  &:hover{
-    border-color:$color-blue;
-    @include transition(all, 0.4s, ease-in-out);
-    }
-}
-
 
 /*-------------------------------------------------
 SMACSS: LAYOUT - FOOTER
