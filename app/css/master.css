@@ -5976,6 +5976,17 @@ SMACSS: STATE
 /*-------------------------------------------------
 SMACSS:Client Testimonials LAYOUT - SECTION
 -------------------------------------------------*/
+.navbar {
+  min-height: 70px  !important;
+  margin: 0px !important; }
+
+.navbar-nav {
+  padding-top: 15px !important;
+  float: right !important;
+  text-transform: uppercase; }
+  .navbar-nav li.dropdown a {
+    padding-top: 10px !important; }
+
 blockquote {
   border-left-width: 2px !important; }
   blockquote footer {
@@ -5989,14 +6000,14 @@ blockquote {
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out; }
 
-#Free-Proof-Concept a.carousel-control {
+#free-Proof-Concept a.carousel-control {
   opacity: 1;
   font-size: 30px;
   height: inherit;
   width: inherit;
   background: none;
   text-shadow: none; }
-  #Free-Proof-Concept a.carousel-control i {
+  #free-Proof-Concept a.carousel-control i {
     top: 50%;
     opacity: 0.6;
     background: #000;
@@ -6006,21 +6017,36 @@ blockquote {
     padding: 2px 12px;
     position: absolute; }
 
-#Free-Proof-Concept a.right i {
+#free-Proof-Concept a.right i {
   right: 0 !important; }
 
-#Free-Proof-Concept a.left i {
+#free-Proof-Concept a.left i {
   left: 0 !important; }
 
-#Free-Proof-Concept .carousel-caption {
+#free-Proof-Concept .carousel-caption {
   padding: 7px 15px !important;
   background: rgba(0, 0, 0, 0.7);
   bottom: 0px !important;
   left: 0px !important;
   right: 0px !important; }
-  #Free-Proof-Concept .carousel-caption p {
+  #free-Proof-Concept .carousel-caption p {
     color: #fff;
     margin-bottom: 0px; }
+
+/*-------------------------------------------------
+SMACSS: Patner - FOOTER
+-------------------------------------------------*/
+.flexslider.l-partners {
+  border: 0;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 30px; }
+
+.flexslider {
+  margin-top: 10px !important;
+  background: none !important; }
+  .flexslider .flex-direction-nav a {
+    margin-top: -10px !important; }
 
 /*-------------------------------------------------
 SMACSS: LAYOUT - COMMON
@@ -6172,6 +6198,37 @@ SMACSS:Client Testimonials LAYOUT - SECTION
 .blockquote-box footer {
   border-top: 0px;
   text-align: left; }
+
+/*-------------------------------------------------
+SMACSS: Patner - FOOTER
+-------------------------------------------------*/
+.l-partners {
+  box-shadow: none !important;
+  margin-bottom: 0 !important;
+  border: 0;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 30px; }
+  .l-partners li {
+    overflow: hidden;
+    margin-left: 1px;
+    position: relative;
+    background: #fafafa; }
+    .l-partners li:hover {
+      background: #f6f6f6; }
+      .l-partners li:hover img.color-img {
+        display: block; }
+    .l-partners li img.color-img {
+      top: 0;
+      left: 0;
+      display: none;
+      position: absolute; }
+    .l-partners li img {
+      filter: gray;
+      float: none !important;
+      margin: 0 auto !important; }
+      .l-partners li img:hover {
+        filter: none; }
 
 /*-------------------------------------------------
 SMACSS: LAYOUT - FOOTER

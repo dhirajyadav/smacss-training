@@ -41,7 +41,8 @@ gulp.task('css', function() {
            loadPath: [
                 './scss/sass',
                 config.bowerDir + 'bootstrap-sass/assets/stylesheets',
-                config.bowerDir + '/font-awesome/scss/font-awesome.scss',
+                config.bowerDir + '/font-awesome/scss/font-awesome.scss', 
+                config.bowerDir + '/FlexSlider-Scss/flexslider.scss',
             ]
         })
             .on("error", notify.onError(function (error) {

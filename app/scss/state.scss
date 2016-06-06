@@ -2,9 +2,26 @@
 /*-------------------------------------------------
 SMACSS: STATE
 -------------------------------------------------*/
+
+
 /*-------------------------------------------------
 SMACSS:Client Testimonials LAYOUT - SECTION
 -------------------------------------------------*/
+.navbar{
+	min-height: 70px  !important;
+	margin: 0px !important;
+}
+.navbar-nav{
+	padding-top: 15px !important;
+	float: right !important;
+	text-transform:uppercase;
+	li.dropdown{
+		a{
+			padding-top: 10px !important;
+		}
+	}
+}
+
 blockquote{
   border-left-width:2px !important;
   footer{
@@ -16,7 +33,7 @@ blockquote{
     @include transition(all, 0.4s, ease-in-out);
     }
 }
-#Free-Proof-Concept{
+#free-Proof-Concept{
 	a.carousel-control{
 		opacity: 1;
 	    font-size: 30px;
@@ -56,4 +73,24 @@ blockquote{
 			margin-bottom: 0px;
 		}
 	}
+}
+
+/*-------------------------------------------------
+SMACSS: Patner - FOOTER
+-------------------------------------------------*/
+
+.flexslider.l-partners  {
+  border: 0;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.flexslider {
+  margin-top: 10px !important;
+  background: none !important;
+  .flex-direction-nav {
+    a {
+      margin-top: -10px !important;
+    }
+  }
 }
